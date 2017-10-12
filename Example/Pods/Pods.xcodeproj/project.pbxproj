@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12033AAB37842D6B14612E1840C75E40 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E221EBBA6EB886A08BD30A3CC561637 /* ReplaceMe.swift */; };
+		2464C4BA268537B7AAEC0B1DE95CD658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		28004B5C0EE425C71B4A7926797ADFD7 /* Pods-JSBlurrySidebar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6135E81416E38560F7163B96E02EF55 /* Pods-JSBlurrySidebar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5372A380AEBA0B2AD0316EC6D0B82C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		79E3386470959C2EB3CAE72139163261 /* Pods-JSBlurrySidebar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1105110C0A90683425ABC16B14A8CDD1 /* Pods-JSBlurrySidebar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D93FA64CEC54DF6D2235F46B2C476CF /* JSBlurrySidebar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B24762EB084EF1981CEBDF7FAD1CA71 /* JSBlurrySidebar-dummy.m */; };
+		9B614204711F8B577AE92E8A79E417B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BDC3A2556481B57A348193B4247BFCAE /* Pods-JSBlurrySidebar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8FDA85FCDD987045CEA6B4AFE1654 /* Pods-JSBlurrySidebar_Example-dummy.m */; };
+		C40C87134B0C1145DFA89A0824D0316C /* JSBlurrySidebar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87900EB9D8D116E5D61973C697CA8C02 /* JSBlurrySidebar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9A6E41A4A5696F50C41A2218522CB2 /* Pods-JSBlurrySidebar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A769075D96259E45DCFA736EB9C5044F /* Pods-JSBlurrySidebar_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E489B2CBED3B21B7621BC199C902A96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A92F7078718BC0AAC53261A85963D5;
+			remoteInfo = JSBlurrySidebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC124240BA6AECCDDE8390A0EF54C2E /* Pods-JSBlurrySidebar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBlurrySidebar_Tests-resources.sh"; sourceTree = "<group>"; };
+		10B8B41591E63B1C2A72FAB0024D47A6 /* Pods-JSBlurrySidebar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBlurrySidebar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1105110C0A90683425ABC16B14A8CDD1 /* Pods-JSBlurrySidebar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSBlurrySidebar_Example-umbrella.h"; sourceTree = "<group>"; };
+		13073CD8236FAD0ED878F50FA34409E4 /* Pods-JSBlurrySidebar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSBlurrySidebar_Tests.modulemap"; sourceTree = "<group>"; };
+		182E4BB454037A830FAE9EEAC3C8D8C4 /* Pods-JSBlurrySidebar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSBlurrySidebar_Example.modulemap"; sourceTree = "<group>"; };
+		1B24762EB084EF1981CEBDF7FAD1CA71 /* JSBlurrySidebar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSBlurrySidebar-dummy.m"; sourceTree = "<group>"; };
+		22A2DC38912362CF50E93BF99F5BC31D /* Pods_JSBlurrySidebar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSBlurrySidebar_Example.framework; path = "Pods-JSBlurrySidebar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3315E700B7DB22A65234EB30F1CC18EC /* Pods-JSBlurrySidebar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSBlurrySidebar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A71C22E27824519D64871C7245EC4F1 /* JSBlurrySidebar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSBlurrySidebar.modulemap; sourceTree = "<group>"; };
+		3E221EBBA6EB886A08BD30A3CC561637 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JSBlurrySidebar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		40E835F94605666C4ABDBAEABD28105F /* Pods-JSBlurrySidebar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSBlurrySidebar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4466EA279BCD3E101B7DA828E6360F2A /* Pods-JSBlurrySidebar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSBlurrySidebar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		464183EA0B6040F620FFE23CA197A130 /* JSBlurrySidebar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSBlurrySidebar.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB829B61984FDB1D09F70AEAA529312 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CB041C99F6A2D944F6DD1F6288C8C9 /* Pods-JSBlurrySidebar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBlurrySidebar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D7D0D321D3F3AE5F745B67AE3DCDB5F /* Pods-JSBlurrySidebar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSBlurrySidebar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EDA3BF370172B95544DD22A22978D1C /* JSBlurrySidebar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBlurrySidebar-prefix.pch"; sourceTree = "<group>"; };
+		80197494CE9185959013F0E43949DF2C /* Pods_JSBlurrySidebar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSBlurrySidebar_Tests.framework; path = "Pods-JSBlurrySidebar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87900EB9D8D116E5D61973C697CA8C02 /* JSBlurrySidebar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSBlurrySidebar-umbrella.h"; sourceTree = "<group>"; };
+		923B39F88FBE800D9335139596AEEC4D /* Pods-JSBlurrySidebar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBlurrySidebar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D3466B772C6DE62BB16144EA1CCEF2 /* Pods-JSBlurrySidebar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBlurrySidebar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E8FDA85FCDD987045CEA6B4AFE1654 /* Pods-JSBlurrySidebar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSBlurrySidebar_Example-dummy.m"; sourceTree = "<group>"; };
+		A4087DEDB9E11C941C05D98AEF0D6B18 /* Pods-JSBlurrySidebar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBlurrySidebar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A6135E81416E38560F7163B96E02EF55 /* Pods-JSBlurrySidebar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSBlurrySidebar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A769075D96259E45DCFA736EB9C5044F /* Pods-JSBlurrySidebar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSBlurrySidebar_Tests-dummy.m"; sourceTree = "<group>"; };
+		B8264C8A49659C943FBDF9F8E65257A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA2D463BA599B1AB7723CE91E4FC034 /* Pods-JSBlurrySidebar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSBlurrySidebar_Example-resources.sh"; sourceTree = "<group>"; };
+		CC8BF3E5240C2D3B587C75878D188C04 /* Pods-JSBlurrySidebar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSBlurrySidebar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8B00717DE6BC798B5A851A7C7AEEB3 /* JSBlurrySidebar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSBlurrySidebar.framework; path = JSBlurrySidebar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E2B0FF52F10662F3ABC3D1ADC33637 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BBC008449316C4AA7D4E5E0A7A9811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B614204711F8B577AE92E8A79E417B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4BF6CA74B08772C9DABB8DF41F7174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2464C4BA268537B7AAEC0B1DE95CD658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51403105546A42CE837F8DAB1FFF45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5372A380AEBA0B2AD0316EC6D0B82C14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF9B02659458589C0BC904A2C75C4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8B00717DE6BC798B5A851A7C7AEEB3 /* JSBlurrySidebar.framework */,
+				22A2DC38912362CF50E93BF99F5BC31D /* Pods_JSBlurrySidebar_Example.framework */,
+				80197494CE9185959013F0E43949DF2C /* Pods_JSBlurrySidebar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D5C84B4139CCC98B098115388D48535 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69276225A00DD7942DD25FDF9575577 /* Pods-JSBlurrySidebar_Example */,
+				62F189A705D9B78DF7522C094A1DEA19 /* Pods-JSBlurrySidebar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		170E6449186B558FAF5BDFBDA344094C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FB829B61984FDB1D09F70AEAA529312 /* Info.plist */,
+				3A71C22E27824519D64871C7245EC4F1 /* JSBlurrySidebar.modulemap */,
+				464183EA0B6040F620FFE23CA197A130 /* JSBlurrySidebar.xcconfig */,
+				1B24762EB084EF1981CEBDF7FAD1CA71 /* JSBlurrySidebar-dummy.m */,
+				7EDA3BF370172B95544DD22A22978D1C /* JSBlurrySidebar-prefix.pch */,
+				87900EB9D8D116E5D61973C697CA8C02 /* JSBlurrySidebar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSBlurrySidebar";
+			sourceTree = "<group>";
+		};
+		3EB20AADEBB9D23C01529BF02BA1C6F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9762094B3745AD6D88BFEDA0D8159967 /* JSBlurrySidebar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62F189A705D9B78DF7522C094A1DEA19 /* Pods-JSBlurrySidebar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E2B0FF52F10662F3ABC3D1ADC33637 /* Info.plist */,
+				13073CD8236FAD0ED878F50FA34409E4 /* Pods-JSBlurrySidebar_Tests.modulemap */,
+				4466EA279BCD3E101B7DA828E6360F2A /* Pods-JSBlurrySidebar_Tests-acknowledgements.markdown */,
+				3315E700B7DB22A65234EB30F1CC18EC /* Pods-JSBlurrySidebar_Tests-acknowledgements.plist */,
+				A769075D96259E45DCFA736EB9C5044F /* Pods-JSBlurrySidebar_Tests-dummy.m */,
+				A4087DEDB9E11C941C05D98AEF0D6B18 /* Pods-JSBlurrySidebar_Tests-frameworks.sh */,
+				0AC124240BA6AECCDDE8390A0EF54C2E /* Pods-JSBlurrySidebar_Tests-resources.sh */,
+				A6135E81416E38560F7163B96E02EF55 /* Pods-JSBlurrySidebar_Tests-umbrella.h */,
+				96D3466B772C6DE62BB16144EA1CCEF2 /* Pods-JSBlurrySidebar_Tests.debug.xcconfig */,
+				79CB041C99F6A2D944F6DD1F6288C8C9 /* Pods-JSBlurrySidebar_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSBlurrySidebar_Tests";
+			path = "Target Support Files/Pods-JSBlurrySidebar_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3EB20AADEBB9D23C01529BF02BA1C6F6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0BF9B02659458589C0BC904A2C75C4DB /* Products */,
+				0D5C84B4139CCC98B098115388D48535 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9762094B3745AD6D88BFEDA0D8159967 /* JSBlurrySidebar */ = {
+			isa = PBXGroup;
+			children = (
+				3E221EBBA6EB886A08BD30A3CC561637 /* ReplaceMe.swift */,
+				170E6449186B558FAF5BDFBDA344094C /* Support Files */,
+			);
+			name = JSBlurrySidebar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A69276225A00DD7942DD25FDF9575577 /* Pods-JSBlurrySidebar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8264C8A49659C943FBDF9F8E65257A4 /* Info.plist */,
+				182E4BB454037A830FAE9EEAC3C8D8C4 /* Pods-JSBlurrySidebar_Example.modulemap */,
+				40E835F94605666C4ABDBAEABD28105F /* Pods-JSBlurrySidebar_Example-acknowledgements.markdown */,
+				7D7D0D321D3F3AE5F745B67AE3DCDB5F /* Pods-JSBlurrySidebar_Example-acknowledgements.plist */,
+				99E8FDA85FCDD987045CEA6B4AFE1654 /* Pods-JSBlurrySidebar_Example-dummy.m */,
+				923B39F88FBE800D9335139596AEEC4D /* Pods-JSBlurrySidebar_Example-frameworks.sh */,
+				CBA2D463BA599B1AB7723CE91E4FC034 /* Pods-JSBlurrySidebar_Example-resources.sh */,
+				1105110C0A90683425ABC16B14A8CDD1 /* Pods-JSBlurrySidebar_Example-umbrella.h */,
+				CC8BF3E5240C2D3B587C75878D188C04 /* Pods-JSBlurrySidebar_Example.debug.xcconfig */,
+				10B8B41591E63B1C2A72FAB0024D47A6 /* Pods-JSBlurrySidebar_Example.release.xcconfig */,
+			);
+			name = "Pods-JSBlurrySidebar_Example";
+			path = "Target Support Files/Pods-JSBlurrySidebar_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1EC8978DD4A60523D3D7853C645810B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3386470959C2EB3CAE72139163261 /* Pods-JSBlurrySidebar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17BF0F52E827275BA1D2FF44C11B6D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40C87134B0C1145DFA89A0824D0316C /* JSBlurrySidebar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC3D97542C92D1A7A85B5E21EF2FE5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28004B5C0EE425C71B4A7926797ADFD7 /* Pods-JSBlurrySidebar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38A92F7078718BC0AAC53261A85963D5 /* JSBlurrySidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4A8DA19E45A5E3B47F5FFEB06CB6C7 /* Build configuration list for PBXNativeTarget "JSBlurrySidebar" */;
+			buildPhases = (
+				1A8D0AF51F8BB7144CEAA21D457FBE05 /* Sources */,
+				F51403105546A42CE837F8DAB1FFF45D /* Frameworks */,
+				D17BF0F52E827275BA1D2FF44C11B6D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSBlurrySidebar;
+			productName = JSBlurrySidebar;
+			productReference = CE8B00717DE6BC798B5A851A7C7AEEB3 /* JSBlurrySidebar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70F72C13DB25DC50E7FF1C2EEAABBCD9 /* Pods-JSBlurrySidebar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DF1FA444F505048D586CB1B6607C77 /* Build configuration list for PBXNativeTarget "Pods-JSBlurrySidebar_Tests" */;
+			buildPhases = (
+				3EAF43386CF3F80543056BA5B245BC8D /* Sources */,
+				DF4BF6CA74B08772C9DABB8DF41F7174 /* Frameworks */,
+				FFC3D97542C92D1A7A85B5E21EF2FE5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSBlurrySidebar_Tests";
+			productName = "Pods-JSBlurrySidebar_Tests";
+			productReference = 80197494CE9185959013F0E43949DF2C /* Pods_JSBlurrySidebar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0FEE4DD479BC83B99FB17FE60CCCCEF /* Pods-JSBlurrySidebar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C25C613D8A175BDE084FF69EF7C8E8 /* Build configuration list for PBXNativeTarget "Pods-JSBlurrySidebar_Example" */;
+			buildPhases = (
+				44FFFCA333DF9D37D61772CC9BBC57E2 /* Sources */,
+				92BBC008449316C4AA7D4E5E0A7A9811 /* Frameworks */,
+				A1EC8978DD4A60523D3D7853C645810B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4C44967B10E34B96AC3C7F64CBF827 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSBlurrySidebar_Example";
+			productName = "Pods-JSBlurrySidebar_Example";
+			productReference = 22A2DC38912362CF50E93BF99F5BC31D /* Pods_JSBlurrySidebar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0BF9B02659458589C0BC904A2C75C4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A92F7078718BC0AAC53261A85963D5 /* JSBlurrySidebar */,
+				E0FEE4DD479BC83B99FB17FE60CCCCEF /* Pods-JSBlurrySidebar_Example */,
+				70F72C13DB25DC50E7FF1C2EEAABBCD9 /* Pods-JSBlurrySidebar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8D0AF51F8BB7144CEAA21D457FBE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D93FA64CEC54DF6D2235F46B2C476CF /* JSBlurrySidebar-dummy.m in Sources */,
+				12033AAB37842D6B14612E1840C75E40 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EAF43386CF3F80543056BA5B245BC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9A6E41A4A5696F50C41A2218522CB2 /* Pods-JSBlurrySidebar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FFFCA333DF9D37D61772CC9BBC57E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC3A2556481B57A348193B4247BFCAE /* Pods-JSBlurrySidebar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4C44967B10E34B96AC3C7F64CBF827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSBlurrySidebar;
+			target = 38A92F7078718BC0AAC53261A85963D5 /* JSBlurrySidebar */;
+			targetProxy = E489B2CBED3B21B7621BC199C902A96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3DA86FFA8A5D46CD39267DF6CFF380E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464183EA0B6040F620FFE23CA197A130 /* JSBlurrySidebar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSBlurrySidebar/JSBlurrySidebar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBlurrySidebar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBlurrySidebar/JSBlurrySidebar.modulemap";
+				PRODUCT_NAME = JSBlurrySidebar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		80907C5007DB786A57309182E41CAFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464183EA0B6040F620FFE23CA197A130 /* JSBlurrySidebar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSBlurrySidebar/JSBlurrySidebar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSBlurrySidebar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSBlurrySidebar/JSBlurrySidebar.modulemap";
+				PRODUCT_NAME = JSBlurrySidebar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A61D837DBE54F75E290A993C598E20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D3466B772C6DE62BB16144EA1CCEF2 /* Pods-JSBlurrySidebar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBlurrySidebar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBlurrySidebar_Tests/Pods-JSBlurrySidebar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSBlurrySidebar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA2CFC3A9D8A0075B3D870C39E3BAE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8BF3E5240C2D3B587C75878D188C04 /* Pods-JSBlurrySidebar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBlurrySidebar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBlurrySidebar_Example/Pods-JSBlurrySidebar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSBlurrySidebar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1D483277BE9C45F144CF39CFC21B212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B8B41591E63B1C2A72FAB0024D47A6 /* Pods-JSBlurrySidebar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBlurrySidebar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBlurrySidebar_Example/Pods-JSBlurrySidebar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSBlurrySidebar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4E175106A0A85C55795FBA85BB2056C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CB041C99F6A2D944F6DD1F6288C8C9 /* Pods-JSBlurrySidebar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSBlurrySidebar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSBlurrySidebar_Tests/Pods-JSBlurrySidebar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSBlurrySidebar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C25C613D8A175BDE084FF69EF7C8E8 /* Build configuration list for PBXNativeTarget "Pods-JSBlurrySidebar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2CFC3A9D8A0075B3D870C39E3BAE10 /* Debug */,
+				E1D483277BE9C45F144CF39CFC21B212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4A8DA19E45A5E3B47F5FFEB06CB6C7 /* Build configuration list for PBXNativeTarget "JSBlurrySidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80907C5007DB786A57309182E41CAFC5 /* Debug */,
+				3DA86FFA8A5D46CD39267DF6CFF380E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DF1FA444F505048D586CB1B6607C77 /* Build configuration list for PBXNativeTarget "Pods-JSBlurrySidebar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A61D837DBE54F75E290A993C598E20C /* Debug */,
+				F4E175106A0A85C55795FBA85BB2056C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

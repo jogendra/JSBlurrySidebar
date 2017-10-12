@@ -1,0 +1,6 @@
+framework module JSBlurrySidebar {
+  umbrella header "JSBlurrySidebar-umbrella.h"
+
+  export *
+  module * { export * }
+}

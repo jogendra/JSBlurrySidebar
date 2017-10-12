@@ -1,0 +1,22 @@
+{
+  "name": "JSBlurrySidebar",
+  "version": "0.1.0",
+  "summary": "A short description of JSBlurrySidebar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/imjog/JSBlurrySidebar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "imjog": "imjog24@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/imjog/JSBlurrySidebar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSBlurrySidebar/Classes/**/*"
+}
