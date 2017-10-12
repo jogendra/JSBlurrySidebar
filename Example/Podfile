@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSBlurrySidebar_Example' do
+  pod 'JSBlurrySidebar', :path => '../'
+
+  target 'JSBlurrySidebar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
